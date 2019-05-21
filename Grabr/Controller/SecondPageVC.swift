@@ -1,28 +1,17 @@
 //
-//  MainVC.swift
+//  SecondPageVC.swift
 //  Grabr
 //
-//  Created by Soheil Ghanbari on 5/15/19.
+//  Created by Soheil Ghanbari on 5/16/19.
 //  Copyright © 2019 Soheil Ghanbari. All rights reserved.
 //
 
 import UIKit
 
-class MainVC: UIViewController {
+class SecondPageVC: UIViewController {
 
-    @IBAction func TestBtn(_ sender: Any) {
+    @IBAction func NextBtn(_ sender: Any) {
     }
-    @IBAction func ShoppingBtn(_ sender: Any) {
-    }
-    
-    
-    @IBAction func TravelingBtn(_ sender: Any) {
-    }
-    
-    
-    @IBAction func SkippBtn(_ sender: Any) {
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
