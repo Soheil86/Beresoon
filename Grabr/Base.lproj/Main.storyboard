@@ -284,12 +284,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceLeftToRight" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f04-T6-Ekp" customClass="BorderButton" customModule="Grabr" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceLeftToRight" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f04-T6-Ekp">
                                 <rect key="frame" x="20" y="134" width="370" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.27730637788772583" green="0.38706547021865845" blue="0.61528176069259644" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
                                 <state key="normal" title="   Connect With Facebook" image="facebookLogo"/>
+                                <connections>
+                                    <action selector="SignInWithFaceBookButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HXQ-y0-aZQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LKN-mO-rVz" customClass="BorderButton" customModule="Grabr" customModuleProvider="target">
                                 <rect key="frame" x="20" y="205" width="370" height="50"/>
@@ -314,6 +317,7 @@
                         <outlet property="FirstnameTxt" destination="8oS-TN-zJK" id="A1A-5h-4qk"/>
                         <outlet property="LastnameTxt" destination="ZpJ-Nq-ZGl" id="V9w-H2-A88"/>
                         <outlet property="PasswordTxt" destination="IKa-yi-11J" id="ntg-eA-AP9"/>
+                        <outlet property="signInWithFaceBookButton" destination="f04-T6-Ekp" id="EBJ-Mi-Rp6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -437,10 +441,10 @@
             </objects>
             <point key="canvasLocation" x="209" y="-116"/>
         </scene>
-        <!--Test Registration View Controller-->
+        <!--WelcomeVC-->
         <scene sceneID="0du-PL-pej">
             <objects>
-                <viewController id="jHq-Pz-oZL" customClass="TestRegistrationViewController" customModule="Grabr" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="jHq-Pz-oZL" customClass="WelcomeVC" customModule="Grabr" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PiU-fO-nCj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		5B165841228C75A8003392E7 /* DoShoppingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B165840228C75A8003392E7 /* DoShoppingVC.swift */; };
+		5B2C57942295839E005772A3 /* SparkKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C578E2295839E005772A3 /* SparkKeys.swift */; };
+		5B2C57952295839E005772A3 /* SparkModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C578F2295839E005772A3 /* SparkModels.swift */; };
+		5B2C57962295839E005772A3 /* SparkSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C57902295839E005772A3 /* SparkSetup.swift */; };
+		5B2C57972295839E005772A3 /* SparkExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C57912295839E005772A3 /* SparkExtensions.swift */; };
+		5B2C57982295839E005772A3 /* SparkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C57922295839E005772A3 /* SparkService.swift */; };
+		5B2C579A22958DC4005772A3 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C579922958DC4005772A3 /* WelcomeVC.swift */; };
+		5B2C57A52295B6EA005772A3 /* Spark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C57A42295B6E9005772A3 /* Spark.swift */; };
 		5B37C904228D7D7E008C4336 /* SecondPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B37C903228D7D7E008C4336 /* SecondPageVC.swift */; };
 		5B4EDD07228C26C8008262BA /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4EDD06228C26C8008262BA /* MainVC.swift */; };
 		5B4EDD09228C6E71008262BA /* DoTravelingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4EDD08228C6E71008262BA /* DoTravelingVC.swift */; };
 		5B64CDD6228DC0C3000926B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B64CDD5228DC0C3000926B6 /* GoogleService-Info.plist */; };
 		5B64CDD822903AE0000926B6 /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B64CDD722903AE0000926B6 /* RegistrationVC.swift */; };
 		5B64CDDA22903C90000926B6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B64CDD922903C90000926B6 /* User.swift */; };
-		5B64CDDC2291AF3B000926B6 /* TestRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B64CDDB2291AF3B000926B6 /* TestRegistrationViewController.swift */; };
 		5B64CDE02291B06D000926B6 /* RoundedWhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B64CDDF2291B06D000926B6 /* RoundedWhiteButton.swift */; };
 		5BD026F3227A35EA00E28E39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD026F2227A35EA00E28E39 /* AppDelegate.swift */; };
 		5BD026F5227A35EA00E28E39 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD026F4227A35EA00E28E39 /* SignUpVC.swift */; };
@@ -26,13 +32,19 @@
 
 /* Begin PBXFileReference section */
 		5B165840228C75A8003392E7 /* DoShoppingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoShoppingVC.swift; sourceTree = "<group>"; };
+		5B2C578E2295839E005772A3 /* SparkKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkKeys.swift; sourceTree = "<group>"; };
+		5B2C578F2295839E005772A3 /* SparkModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkModels.swift; sourceTree = "<group>"; };
+		5B2C57902295839E005772A3 /* SparkSetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkSetup.swift; sourceTree = "<group>"; };
+		5B2C57912295839E005772A3 /* SparkExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkExtensions.swift; sourceTree = "<group>"; };
+		5B2C57922295839E005772A3 /* SparkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkService.swift; sourceTree = "<group>"; };
+		5B2C579922958DC4005772A3 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		5B2C57A42295B6E9005772A3 /* Spark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spark.swift; sourceTree = "<group>"; };
 		5B37C903228D7D7E008C4336 /* SecondPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageVC.swift; sourceTree = "<group>"; };
 		5B4EDD06228C26C8008262BA /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		5B4EDD08228C6E71008262BA /* DoTravelingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoTravelingVC.swift; sourceTree = "<group>"; };
 		5B64CDD5228DC0C3000926B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5B64CDD722903AE0000926B6 /* RegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
 		5B64CDD922903C90000926B6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		5B64CDDB2291AF3B000926B6 /* TestRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRegistrationViewController.swift; sourceTree = "<group>"; };
 		5B64CDDF2291B06D000926B6 /* RoundedWhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedWhiteButton.swift; sourceTree = "<group>"; };
 		5BD026EF227A35EA00E28E39 /* Grabr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grabr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD026F2227A35EA00E28E39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +78,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5B2C578C2295839E005772A3 /* Spark */ = {
+			isa = PBXGroup;
+			children = (
+				5B2C57A42295B6E9005772A3 /* Spark.swift */,
+				5B2C578E2295839E005772A3 /* SparkKeys.swift */,
+				5B2C578F2295839E005772A3 /* SparkModels.swift */,
+				5B2C57902295839E005772A3 /* SparkSetup.swift */,
+				5B2C57912295839E005772A3 /* SparkExtensions.swift */,
+				5B2C57922295839E005772A3 /* SparkService.swift */,
+			);
+			path = Spark;
+			sourceTree = "<group>";
+		};
 		5B4EDD03228C0ED2008262BA /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,8 +107,8 @@
 				5B165840228C75A8003392E7 /* DoShoppingVC.swift */,
 				5B37C903228D7D7E008C4336 /* SecondPageVC.swift */,
 				5B64CDD722903AE0000926B6 /* RegistrationVC.swift */,
-				5B64CDDB2291AF3B000926B6 /* TestRegistrationViewController.swift */,
 				5B64CDDF2291B06D000926B6 /* RoundedWhiteButton.swift */,
+				5B2C579922958DC4005772A3 /* WelcomeVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -99,6 +124,7 @@
 		5BD026E6227A35EA00E28E39 = {
 			isa = PBXGroup;
 			children = (
+				5B2C578C2295839E005772A3 /* Spark */,
 				5BD026F1227A35EA00E28E39 /* Grabr */,
 				5BD026F0227A35EA00E28E39 /* Products */,
 				90470F9F994BDA484C94C505 /* Pods */,
@@ -219,9 +245,18 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Grabr/Pods-Grabr-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
@@ -232,9 +267,18 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyConstraints.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
@@ -276,14 +320,20 @@
 			files = (
 				5BD026F5227A35EA00E28E39 /* SignUpVC.swift in Sources */,
 				5B64CDE02291B06D000926B6 /* RoundedWhiteButton.swift in Sources */,
-				5B64CDDC2291AF3B000926B6 /* TestRegistrationViewController.swift in Sources */,
 				5B4EDD07228C26C8008262BA /* MainVC.swift in Sources */,
 				5BD026F3227A35EA00E28E39 /* AppDelegate.swift in Sources */,
 				5B165841228C75A8003392E7 /* DoShoppingVC.swift in Sources */,
 				5B64CDDA22903C90000926B6 /* User.swift in Sources */,
 				5B4EDD09228C6E71008262BA /* DoTravelingVC.swift in Sources */,
+				5B2C57A52295B6EA005772A3 /* Spark.swift in Sources */,
 				5B64CDD822903AE0000926B6 /* RegistrationVC.swift in Sources */,
+				5B2C57962295839E005772A3 /* SparkSetup.swift in Sources */,
 				5B37C904228D7D7E008C4336 /* SecondPageVC.swift in Sources */,
+				5B2C57952295839E005772A3 /* SparkModels.swift in Sources */,
+				5B2C57942295839E005772A3 /* SparkKeys.swift in Sources */,
+				5B2C57972295839E005772A3 /* SparkExtensions.swift in Sources */,
+				5B2C57982295839E005772A3 /* SparkService.swift in Sources */,
+				5B2C579A22958DC4005772A3 /* WelcomeVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
