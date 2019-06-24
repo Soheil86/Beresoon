@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B0820A122BF7F0B0093F0BA /* AddOrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0820A022BF7F0B0093F0BA /* AddOrderVC.swift */; };
+		5B0820A322BF87790093F0BA /* FirestoreReferenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0820A222BF87790093F0BA /* FirestoreReferenceManager.swift */; };
+		5B0820A522BF8E930093F0BA /* FirebaseKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0820A422BF8E930093F0BA /* FirebaseKeys.swift */; };
 		5B165841228C75A8003392E7 /* DoShoppingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B165840228C75A8003392E7 /* DoShoppingVC.swift */; };
 		5B2C57942295839E005772A3 /* SparkKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C578E2295839E005772A3 /* SparkKeys.swift */; };
 		5B2C57952295839E005772A3 /* SparkModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C578F2295839E005772A3 /* SparkModels.swift */; };
@@ -31,6 +34,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B0820A022BF7F0B0093F0BA /* AddOrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderVC.swift; sourceTree = "<group>"; };
+		5B0820A222BF87790093F0BA /* FirestoreReferenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreReferenceManager.swift; sourceTree = "<group>"; };
+		5B0820A422BF8E930093F0BA /* FirebaseKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseKeys.swift; sourceTree = "<group>"; };
 		5B165840228C75A8003392E7 /* DoShoppingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoShoppingVC.swift; sourceTree = "<group>"; };
 		5B2C578E2295839E005772A3 /* SparkKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkKeys.swift; sourceTree = "<group>"; };
 		5B2C578F2295839E005772A3 /* SparkModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkModels.swift; sourceTree = "<group>"; };
@@ -78,6 +84,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5B0820A622C0D6320093F0BA /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
 		5B2C578C2295839E005772A3 /* Spark */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +122,7 @@
 				5B64CDD722903AE0000926B6 /* RegistrationVC.swift */,
 				5B64CDDF2291B06D000926B6 /* RoundedWhiteButton.swift */,
 				5B2C579922958DC4005772A3 /* WelcomeVC.swift */,
+				5B0820A022BF7F0B0093F0BA /* AddOrderVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -143,6 +157,7 @@
 		5BD026F1227A35EA00E28E39 /* Grabr */ = {
 			isa = PBXGroup;
 			children = (
+				5B0820A622C0D6320093F0BA /* StoryBoard */,
 				5B4EDD05228C0F20008262BA /* Model */,
 				5B4EDD04228C0F15008262BA /* Controller */,
 				5B4EDD03228C0ED2008262BA /* Views */,
@@ -152,6 +167,8 @@
 				5BD026FB227A35EB00E28E39 /* LaunchScreen.storyboard */,
 				5BD026FE227A35EB00E28E39 /* Info.plist */,
 				5B64CDD5228DC0C3000926B6 /* GoogleService-Info.plist */,
+				5B0820A222BF87790093F0BA /* FirestoreReferenceManager.swift */,
+				5B0820A422BF8E930093F0BA /* FirebaseKeys.swift */,
 			);
 			path = Grabr;
 			sourceTree = "<group>";
@@ -327,11 +344,14 @@
 				5B4EDD09228C6E71008262BA /* DoTravelingVC.swift in Sources */,
 				5B2C57A52295B6EA005772A3 /* Spark.swift in Sources */,
 				5B64CDD822903AE0000926B6 /* RegistrationVC.swift in Sources */,
+				5B0820A122BF7F0B0093F0BA /* AddOrderVC.swift in Sources */,
 				5B2C57962295839E005772A3 /* SparkSetup.swift in Sources */,
 				5B37C904228D7D7E008C4336 /* SecondPageVC.swift in Sources */,
+				5B0820A522BF8E930093F0BA /* FirebaseKeys.swift in Sources */,
 				5B2C57952295839E005772A3 /* SparkModels.swift in Sources */,
 				5B2C57942295839E005772A3 /* SparkKeys.swift in Sources */,
 				5B2C57972295839E005772A3 /* SparkExtensions.swift in Sources */,
+				5B0820A322BF87790093F0BA /* FirestoreReferenceManager.swift in Sources */,
 				5B2C57982295839E005772A3 /* SparkService.swift in Sources */,
 				5B2C579A22958DC4005772A3 /* WelcomeVC.swift in Sources */,
 			);
